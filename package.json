@@ -1,0 +1,25 @@
+{
+  "name": "scrapequest",
+  "version": "1.0.0",
+  "description": "scrape in a queue",
+  "main": "scrapequest.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbrandt1/scrapequest.git"
+  },
+  "keywords": [],
+  "author": "Peter Brandt <peter.m.brandt@gmail.com>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "synchronize": "^0.9.14"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "debug": "^2.2.0",
+    "dirty": "^0.9.9",
+    "request": "^2.64.0"
+  }
+}
